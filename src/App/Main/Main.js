@@ -1,12 +1,11 @@
 import React from 'react'
+import NewsList from './News/NewsList';
 
 const Main = () =>
 	<main className="main">
-		<div class="container">
-			<div class="row">
-				<div class="col-3">
-
-				</div>
+		<div className="container">
+			<div className="row">
+				<NewsList/>
 			</div>
 		</div>
 	</main>

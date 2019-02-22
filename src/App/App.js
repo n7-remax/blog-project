@@ -5,7 +5,7 @@ import './../common/style/style.css'
 
 import Header from './Header/Header'
 import Main from './Main/Main'
-import Button from './Button/Button'
+import Next from './Next/Next'
 import Info from './Info/Info'
 import Footer from './Footer/Footer'
 
@@ -15,7 +15,7 @@ class App extends Component {
       <div>
         <Header/>
 				<Main/>
-        <Button/>
+        <Next/>
         <Info/>
         <Footer/>
       </div>

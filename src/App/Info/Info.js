@@ -4,6 +4,7 @@ import './info.css'
 
 const Info = () =>
     <info className="info">
+    <div className="info-zone">
         <div className="container">
             <div className="row">
                 <div className="col-2">
@@ -44,6 +45,7 @@ const Info = () =>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </info>
 
