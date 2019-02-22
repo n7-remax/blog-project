@@ -1,0 +1,12 @@
+  .button-block {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  
+  .button{
+    margin-top: 25px;
+    border-top: 1px solid black;
+    border-style: dotted;
+    padding-top: 25px;
+    padding-bottom:25px;
+  }

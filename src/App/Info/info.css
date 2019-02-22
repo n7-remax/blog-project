@@ -1,0 +1,41 @@
+ .info {
+    background: #3a3d40;
+    padding-bottom: 25px;
+  }
+  
+  .info-content {
+    margin:5px;
+  }
+  .info-heading {
+    font-size: 18px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .info-paragraph {
+    color: #999a9a;
+  
+  }
+  
+  .latest-post {
+    max-height: 50px;
+    border-bottom: 1px solid black;
+    border-style: dotted;
+  }
+  
+  .contact-input {
+    width: 100%;
+    height: 30px;
+    background-color: #27292b;
+    border-style: none;
+    color: white;
+    margin-bottom: 10px;
+  
+  }
+  .contact-comment {
+    height: 140px;
+    width: 100%;
+    border-style: none;
+    background-color: #27292b;
+    resize: none;
+  }
