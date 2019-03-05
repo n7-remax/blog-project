@@ -18,7 +18,7 @@ const NewsList = () =>
                 <div className="col-3" key={id}>
 					<div className="content-block">
 						<div className="image">
-							<img src={image} />
+							<img src={image} alt="test" />
 						</div>
 						<div className="description">
 							<h2 className="post-heading">{name}</h2>
