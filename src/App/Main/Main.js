@@ -5,12 +5,15 @@ import Service from './Service/Service';
 import Portfolio from './Portfolio/Portfolio'
 import About from './About/About'
 import Contact from './Contact/Contact'
+import NewsPage from './NewsPage/NewsPage';
 
 const Main = () =>
 	<main className="main">
 		<div className="container">
 			<div className="row">
 				<Route exact path="/" render={() => <NewsList
+				/>} />
+				<Route exact path="/newspage" render={() => <NewsPage
 				/>} />
 				<Route path="/service" component={Service} />
 				<Route path="/portfolio" component={Portfolio} />

@@ -25,7 +25,10 @@ const NewsList = () =>
 							<p className="text">{description}</p>
 						</div>
 						<div className="date">
-							{date}
+                            {date}
+                            <div>
+                            <button className="btn">View</button>
+                            </div>
 						</div>
 					</div>
 

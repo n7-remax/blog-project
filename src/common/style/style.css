@@ -39,6 +39,10 @@ p {
 	width: 25%;
 }
 
+.col-7 {
+	width: 75%;
+}
+
 .btn {
   background-color: #5d7b8e;
   width: 110px;
