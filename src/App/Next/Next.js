@@ -3,14 +3,14 @@ import React from 'react'
 import './next.css'
 
 const Next = () =>
-	<next className="next">
-		<div class="container">
-			<div class="row">
-				<div class="next-block">
-					<button class="btn btn-old-posts">Older Posts</button>
+	<div className="next">
+		<div className="container">
+			<div className="row">
+				<div className="next-block">
+					<button className="btn btn-old-posts">Older Posts</button>
 				</div>
 			</div>		
 		</div>
-	</next>
+	</div>
 
 export default Next

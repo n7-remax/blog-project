@@ -27,7 +27,7 @@ const NewsList = () =>
 						<div className="date">
                             {date}
                             <div>
-                            <button className="btn">View</button>
+                            <button className ="btn show-current-news">View</button>
                             </div>
 						</div>
 					</div>

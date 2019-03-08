@@ -3,26 +3,26 @@ import React from 'react'
 import './footer.css'
 
 const Footer = () =>
-    <footer className="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-5">
-                    <div class="footer-copyright-box">
-                        <p class="footer-copyright"> © 2019</p>
+    <div className="footer">
+        <div className="container">
+            <div className="row">
+                <div className="col-5">
+                    <div className="footer-copyright-box">
+                        <p className="footer-copyright"> © 2019</p>
                     </div>
                 </div>
-                <div class="col-5">
-                    <div class="footer-icons-box">
-                        <a href="#" class="fa fa-rss"></a>
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-dribbble"></a>
-                        <a href="#" class="fa fa-pinterest"></a>
-                        <a href="#" class="fa fa-linkedin"></a>
+                <div className="col-5">
+                    <div className="footer-icons-box">
+                        <a href="#" className="fa fa-rss"></a>
+                        <a href="#" className="fa fa-facebook"></a>
+                        <a href="#" className="fa fa-twitter"></a>
+                        <a href="#" className="fa fa-dribbble"></a>
+                        <a href="#" className="fa fa-pinterest"></a>
+                        <a href="#" className="fa fa-linkedin"></a>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
 
 export default Footer

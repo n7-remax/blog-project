@@ -43,6 +43,14 @@ p {
 	width: 75%;
 }
 
+.col-9 {
+  width: 90%;
+}
+
+.col-1 {
+  width: 10%;
+}
+
 .btn {
   background-color: #5d7b8e;
   width: 110px;
