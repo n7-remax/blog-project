@@ -2,9 +2,17 @@ import React from 'react'
 
 import './NewsPage.css'
 
-const NewsPage = () => {
+import news from '../News/news'
+
+
+const NewsPage = ({
+    match
+
+}) => {
+    const currentNews = news.find(e => e.id === +match.params.id)
 
     return (
+
         <div>
             <div className="col-7">
                 <div className="news-content">
@@ -16,26 +24,18 @@ const NewsPage = () => {
                         </div>
                         <div className="col-9">
                             <div className="news-name">
-                                <h1>News here</h1>
+                                <h1>{currentNews.name}</h1>
                             </div>
                             <div className="news-tags">
-                                <p>#news, cool</p>
+                                <p>#newsID {match.params.id}</p>
                             </div>
                         </div>
                         <div className="news-image">
-                            <img src="images/news/test2.jpg" alt="test" />
+                            <img src={currentNews.image} alt={currentNews.name} />
                         </div>
                     </div>
                     <div className="news-description">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla accusantium, esse commodi veniam atque eius aspernatur ipsa, voluptatibus vitae voluptates recusandae sapiente culpa. Nesciunt facere eum, voluptate tempora fuga odio!
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla accusantium, esse commodi veniam atque eius aspernatur ipsa, voluptatibus vitae voluptates recusandae sapiente culpa. Nesciunt facere eum, voluptate tempora fuga odio!
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla accusantium, esse commodi veniam atque eius aspernatur ipsa, voluptatibus vitae voluptates recusandae sapiente culpa. Nesciunt facere eum, voluptate tempora fuga odio!
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla accusantium, esse commodi veniam atque eius aspernatur ipsa, voluptatibus vitae voluptates recusandae sapiente culpa. Nesciunt facere eum, voluptate tempora fuga odio!
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla accusantium, esse commodi veniam atque eius aspernatur ipsa, voluptatibus vitae voluptates recusandae sapiente culpa. Nesciunt facere eum, voluptate tempora fuga odio!
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla accusantium, esse commodi veniam atque eius aspernatur ipsa, voluptatibus vitae voluptates recusandae sapiente culpa. Nesciunt facere eum, voluptate tempora fuga odio!
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla accusantium, esse commodi veniam atque eius aspernatur ipsa, voluptatibus vitae voluptates recusandae sapiente culpa. Nesciunt facere eum, voluptate tempora fuga odio!
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla accusantium, esse commodi veniam atque eius aspernatur ipsa, voluptatibus vitae voluptates recusandae sapiente culpa. Nesciunt facere eum, voluptate tempora fuga odio!
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla accusantium, esse commodi veniam atque eius aspernatur ipsa, voluptatibus vitae voluptates recusandae sapiente culpa. Nesciunt facere eum, voluptate tempora fuga odio!</p>
+                        <p>{currentNews.description}</p>
                     </div>
                     <div className="recent-post-box">
                         <div className="recent-post-header">
@@ -94,5 +94,6 @@ const NewsPage = () => {
 
     )
 }
+
 
 export default NewsPage

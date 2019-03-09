@@ -13,8 +13,7 @@ const Main = () =>
 			<div className="row">
 				<Route exact path="/" render={() => <NewsList
 				/>} />
-				<Route path="/newspage" render={() => <NewsPage 
-				/>} />
+				<Route path="/newspage/:id" component={NewsPage}/>
 				<Route path="/service" component={Service} />
 				<Route path="/portfolio" component={Portfolio} />
 				<Route path="/about" component={About} />

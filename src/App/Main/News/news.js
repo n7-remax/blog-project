@@ -12,7 +12,7 @@ const news = [
         name:"Apex Legends",
         description:"This is awesome game fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
         date:500,
-        image:"images/news/test.jpg"
+        image:"images/news/test2.jpg"
 
     },
     {
@@ -30,7 +30,7 @@ const news = [
         date:500,
         image:"images/news/test.jpg"
 
-    },
+    },  
 ]
 
 export default news
