@@ -84,9 +84,9 @@ const NewsPage = ({
                         <h2 className="secondary-headers">Game Info</h2>
                     </div>
                     <div className="side-bar-descrtiption">
-                        <p><b>Developer:</b> Respawn Entertainment</p>
-                        <p><b>Genre:</b> Action, Shooter, First-Person, Tactical</p>
-                        <p><b>Rating:</b> T</p>
+                        <p><b>Developer:</b> {currentNews.developer}</p>
+                        <p><b>Genre:</b> {currentNews.genre}</p>
+                        <p><b>Rating:</b> {currentNews.rating}</p>
                     </div>
                 </div>
             </div>

@@ -19,7 +19,7 @@ const NewsList = () =>
                         <div className="col-3" key={id}>
                             <div className="content-block">
                                 <div className="image">
-                                    <img src={image} alt="test" />
+                                    <img src={image} alt={name} />
                                 </div>
                                 <div className="description">
                                     <Link to={`/newspage/${id}`} className="post-heading">{name}</Link>

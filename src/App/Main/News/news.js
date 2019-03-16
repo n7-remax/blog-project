@@ -3,32 +3,48 @@ const news = [
         id:1,
         name:"Apex Legends",
         description:"This is awesome game",
-        date:500,
-        image:"images/news/test.jpg"
+        date:"10/03/2019",
+        image:"/images/news/apex_legends.jpg",
+        developer:"Respawn Entertainment",
+        genre:"Action, Shooter, First-Person, Tactical",
+        rating:"T"
+
 
     },
     {
         id:2,
-        name:"Apex Legends",
-        description:"This is awesome game fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-        date:500,
-        image:"images/news/test2.jpg"
+        name:"CS:GO",
+        description:"This is awesome game ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        date:"20/02/2019",
+        image:"/images/news/csgo.png",
+        developer:"Valve",
+        genre:"Shooter, First-Person, Tactical",
+        rating:"T"
+
 
     },
     {
         id:3,
-        name:"Apex Legends",
+        name:"Destiny 2",
         description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quibusdam repellat dolore deleniti doloremque voluptatum laudantium, ut error autem excepturi iure sapiente! Ullam pariatur deserunt laborum cumque quaerat, nostrum voluptatibus.",
-        date:500,
-        image:"images/news/test.jpg"
+        date:"30/01/2019",
+        image:"/images/news/destiny2.jpg",
+        developer:"Respawn Entertainment",
+        genre:"Action, Shooter, First-Person, Tactical",
+        rating:"T"
+
 
     },
     {
         id:4,
-        name:"Apex Legends",
+        name:"Anthem",
         description:"This is awesome game",
-        date:500,
-        image:"images/news/test.jpg"
+        date:"01/01/2019",
+        image:"/images/news/anthem.jpg",
+        developer:"Respawn Entertainment",
+        genre:"Action, Shooter, First-Person, Tactical",
+        rating:"T"
+
 
     },  
 ]
