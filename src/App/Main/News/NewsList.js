@@ -23,10 +23,10 @@ const NewsList = () =>
                                 </div>
                                 <div className="description">
                                     <Link to={`/newspage/${id}`} className="post-heading">{name}</Link>
-                                    <p className="text">{description}</p>
+                                    <p className="text">{description.substr(0, 300)}</p>
                                 </div>
                                 <div className="date">
-                                    {date}
+                                <p>{date}</p>
                                 </div>
                             </div>
 

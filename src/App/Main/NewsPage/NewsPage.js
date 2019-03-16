@@ -43,16 +43,16 @@ const NewsPage = ({
                         </div>
                         <div className="recent-post">
                             <div className="img-container">
-                                <img src="images/news/test2.jpg" alt="news-content" />
+                                <img src={news[0].image} alt={news[0].name} />
                             </div>
                             <div className="img-container">
-                                <img src="images/news/test2.jpg" alt="news-two" />
+                                <img src={news[1].image} alt={news[1].name} />
                             </div>
                             <div className="img-container">
-                                <img src="images/news/test2.jpg" alt="news-three" />
+                                <img src={news[2].image} alt={news[2].name} />
                             </div>
                             <div className="img-container">
-                                <img src="images/news/test2.jpg" alt="news-fourth" />
+                                <img src={news[3].image} alt={news[3].name} />
                             </div>
                         </div>
                     </div>
