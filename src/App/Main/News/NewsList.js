@@ -34,8 +34,18 @@ const NewsList = () =>
                     ))
             }
         </div>
+        <div className="next">
+		<div className="container">
+			<div className="row">
+				<div className="next-block">
+					<button className="btn btn-old-posts">Older Posts</button>
+				</div>
+			</div>		
+		</div>
+	</div>
 
     </div>
+    
 
 
 export default NewsList
