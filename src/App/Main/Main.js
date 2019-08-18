@@ -11,7 +11,7 @@ const Main = () =>
 	<main className="main">
 		<div className="container">
 			<div className="row">
-				<Route exact path="/blog-project" render={() => <NewsList
+				<Route exact path="/blog-project/" render={() => <NewsList
 				/>} />
 				<Route path="/newspage/:id" component={NewsPage}/>
 				<Route path="/service" component={Service} />
