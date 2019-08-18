@@ -34,7 +34,6 @@ const NewsPage = ({
                             </div>
                         </div>
                         <div className="news-image">
-                            <img src={test}></img>
                             <img src={currentNews.image} alt={currentNews.name} />
                         </div>
                     </div>
