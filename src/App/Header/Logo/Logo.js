@@ -5,7 +5,7 @@ import './logo.css'
 
 const Logo = () =>
 	<div className="logo">
-		<Link to="/blog-project">Gaming Blog</Link>
+		<Link to="/blog-project/">Gaming Blog</Link>
 	</div>
 
 export default Logo
