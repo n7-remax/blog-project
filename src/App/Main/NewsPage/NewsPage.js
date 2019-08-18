@@ -5,6 +5,8 @@ import './NewsPage.css'
 
 import news from '../News/news'
 
+import test from '../../../../public/images/news/csgo.png'
+
 
 const NewsPage = ({
     match
@@ -32,6 +34,7 @@ const NewsPage = ({
                             </div>
                         </div>
                         <div className="news-image">
+                            <img src={test}></img>
                             <img src={currentNews.image} alt={currentNews.name} />
                         </div>
                     </div>
