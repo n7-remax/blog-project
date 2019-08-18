@@ -5,9 +5,6 @@ import './NewsPage.css'
 
 import news from '../News/news'
 
-import test from '../../../common/images/csgo.png'
-
-
 const NewsPage = ({
     match
 
