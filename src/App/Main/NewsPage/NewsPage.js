@@ -43,16 +43,16 @@ const NewsPage = ({
                         </div>
                         <div className="recent-post">
                             <div className="img-container">
-                            <Link to={`/newspage/${news[0].id}`}><img src={news[0].image} alt={news[0].name} title={news[0].name}/></Link>
+                            <Link to={`/blog-project/${news[0].id}`}><img src={news[0].image} alt={news[0].name} title={news[0].name}/></Link>
                             </div>
                             <div className="img-container">
-                            <Link to={`/newspage/${news[1].id}`}><img src={news[1].image} alt={news[1].name} title={news[1].name} /></Link>
+                            <Link to={`/blog-project/${news[1].id}`}><img src={news[1].image} alt={news[1].name} title={news[1].name} /></Link>
                             </div>
                             <div className="img-container">
-                            <Link to={`/newspage/${news[2].id}`}><img src={news[2].image} alt={news[2].name} title={news[2].name} /></Link>
+                            <Link to={`/blog-project/${news[2].id}`}><img src={news[2].image} alt={news[2].name} title={news[2].name} /></Link>
                             </div>
                             <div className="img-container">
-                            <Link to={`/newspage/${news[3].id}`}><img src={news[3].image} alt={news[3].name} title={news[3].name} /></Link>
+                            <Link to={`/blog-project/${news[3].id}`}><img src={news[3].image} alt={news[3].name} title={news[3].name} /></Link>
                             </div>
                         </div>
                     </div>

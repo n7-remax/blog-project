@@ -22,7 +22,7 @@ const NewsList = () =>
                                     <img src={image} alt={name} />
                                 </div>
                                 <div className="description">
-                                    <Link to={`/newspage/${id}`} className="post-heading">{name}</Link>
+                                    <Link to={`/blog-project/${id}`} className="post-heading">{name}</Link>
                                     <p className="text">{description.substr(0, 300)}</p>
                                 </div>
                                 <div className="date">
