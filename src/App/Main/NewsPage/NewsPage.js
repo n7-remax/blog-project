@@ -5,7 +5,7 @@ import './NewsPage.css'
 
 import news from '../News/news'
 
-import test from '../../../../public/images/news/csgo.png'
+import test from '../../../common/images/csgo.png'
 
 
 const NewsPage = ({
